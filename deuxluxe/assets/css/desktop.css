@@ -1,0 +1,109 @@
+/*MEDIAQUERIES*/
+/*Caroline & Fanny & Amanda*/ 
+/*FOR DESKTOP*/
+@media (min-width: 1250px) {
+
+  /*HEADERHERO*/ 
+  /*HEADLINE - HEADER*/
+  .HeaderHero__Title {
+    font-size: 150px;
+    flex-direction: row;
+  }
+  /*PARAGRAPH - HEADER*/
+  /*[deluxe]*/
+  .HeaderHero__Text {
+    font-size: 60px;
+  }
+
+  /*NAVBAR*/
+  .Header__Menu-Text {
+    display: flex;
+  }
+
+
+  .paragraphSection {
+    padding: 30px;
+    font-size: 25px;
+  }
+  .spaceSection {
+    margin-top: 60px;
+  }
+  #textSectionSpace {
+    margin-top: 130px;
+  }
+  section#subscribeSection {
+    height: 480px;
+  }
+  #buttonSubscribe {
+    margin-left: 30px;
+  }
+  #drinkSection {
+    height: 300px;
+  }
+  #foodSection {
+    height: 400px;
+  }
+  #signUp {
+    width: 550px;
+    height: 550px;
+  }
+
+
+  /*GALLERY*/ 
+  .Gallery__Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Gallery__Item {
+    max-width: 33.3%;
+  }
+
+
+  
+
+  /*PROMOTIONALS*/ 
+  .Promotionals__Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Promotionals__Item {
+    flex: 33.3%;
+  }
+
+
+
+  /*STANDARD*/ 
+  .Standard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Standard__Column {
+    flex: 50%;
+  }
+
+  
+  /*HOME.PHP*/
+  /*LIFESTYLE*/ 
+  .Archive-Post__Container {
+    display: flex; 
+  }
+  .Archive-Post__Items {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+  }
+  .Post__Item {
+    width: 33.3%; 
+  }
+  /*SIDEBAR*/ 
+  .SidebarWidget {
+    background: #ffffff; 
+    display: block; 
+    padding: 20px; 
+    width: 3200px; 
+  }
+
+}
